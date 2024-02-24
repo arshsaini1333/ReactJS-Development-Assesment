@@ -13,4 +13,4 @@ To run this code Please follow these step
 7. click to the locals link. It open the page into the browser
 
 Here is the preview link for this page
->>>>>>> 67a9466224014424b6da3166dcc22bb07dc0d37c
+https://animated-truffle-91537f.netlify.app/
