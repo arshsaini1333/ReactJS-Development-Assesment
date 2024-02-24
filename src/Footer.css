@@ -1,0 +1,37 @@
+.Footer {
+  height: 300px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  background-color: #212731;
+  justify-content: space-evenly;
+  color: #b6bdc4;
+}
+
+.Footer div {
+  height: 200px;
+  width: 30%;
+}
+
+.category p,
+h4 {
+  margin-top: 15px;
+  margin-left: 180px;
+}
+
+.contact p,
+h4 {
+  margin-top: 15px;
+  margin-left: 180px;
+}
+
+.us p {
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.Footer p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

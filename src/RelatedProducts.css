@@ -1,0 +1,77 @@
+.RelatedProducts {
+  width: 30%;
+  border-radius: 10px;
+  transition: 500ms;
+  padding: 15px;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.img {
+  margin-left: 30px;
+}
+
+.price {
+  margin-top: 10px;
+}
+
+.info {
+  color: #626e79;
+}
+
+.info span {
+  margin-left: 50px;
+}
+
+.info p {
+  margin-top: 15px;
+}
+
+.newPrice {
+  color: #5c6874;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.oldPrice {
+  color: #9fa9b3;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.discount {
+  color: #ef4c5d;
+  font-size: 15px;
+}
+
+.RelatedProducts:hover {
+  box-shadow: 2px 2px 5px #2c384a;
+}
+
+.offer {
+  margin-bottom: 10px;
+}
+
+.offer span {
+  padding: 3px 10px;
+  color: #074786;
+  margin-right: 10px;
+  background-color: #f2f4f7;
+  border-radius: 7px;
+}
+
+.RelatedProducts button {
+  background-color: #1b88f4;
+  color: white;
+  border: none;
+  font-size: 18px;
+  height: 40px;
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.RelatedProducts button:hover {
+  box-shadow: 2px 2px 5px #1b88f4;
+}

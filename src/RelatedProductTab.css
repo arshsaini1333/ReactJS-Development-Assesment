@@ -1,0 +1,10 @@
+.RelatedProductTab {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.relatedHeading {
+  font-size: 35px;
+  color: #2c384a;
+}

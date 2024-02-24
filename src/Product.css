@@ -1,0 +1,145 @@
+.Product {
+  margin: 50px 0px;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #4b5665;
+  border-radius: 20px;
+  transition: 500ms;
+}
+
+.image {
+  width: 20%;
+}
+
+.information {
+  margin: 0px 10px;
+  width: 55%;
+  padding-top: 20px;
+}
+
+.image img {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.image .builder {
+  margin-left: 80px;
+  color: #626e79;
+}
+
+.image .index {
+  margin-top: 30px;
+  border: 1px solid #626e79;
+  padding: 4px;
+  font-size: 22px;
+  height: 29px;
+  width: 29px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.highlight {
+  color: #2c384a;
+  margin: 10px 0;
+}
+
+.comment {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.reviews {
+  margin-bottom: 20px;
+}
+
+.showMore {
+  color: #1b88f4;
+}
+
+.Product:hover {
+  box-shadow: 2px 2px 5px #2c384a;
+}
+
+.ratings {
+  width: 20%;
+  padding-top: 0 !important;
+}
+
+.rating {
+  margin-left: 30px;
+  height: 100px;
+  width: 120px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+  padding-top: 18px;
+  color: #074786;
+  background-color: #f3f9ff;
+}
+
+.rating span {
+  font-size: 24px;
+}
+
+.ratings button {
+  margin-top: 20px;
+  background-color: #1b88f4;
+  color: white;
+  height: 40px;
+  width: 180px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: none;
+  transition: 500ms;
+}
+
+.rating i {
+  margin-top: 8px;
+  color: #ffb80f;
+}
+
+.ratings button:hover {
+  box-shadow: 2px 2px 5px #1b88f4;
+  cursor: pointer;
+}
+
+.tag {
+  padding: 6px;
+  background-color: #ff7724;
+  width: 120px;
+  margin-bottom: 20px;
+  color: white;
+  height: 30px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  position: relative;
+  left: -13px;
+}
+
+.discount {
+  color: #074786;
+  background-color: #f2f4f7;
+  width: 70px;
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.commentsList {
+  background-color: #fff4ed;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.commentsList span {
+  margin: 10px;
+}
+
+.highlightRating {
+  color: #1b88f4;
+  background-color: #ffffff;
+}
