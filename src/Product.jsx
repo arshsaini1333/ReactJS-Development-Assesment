@@ -6,6 +6,7 @@ export default function Product({ product }) {
   let discount = product.discount;
   return (
     <div className="Product">
+      {/* Image Index and Builder Info */}
       <div className="image">
         {tag ? (
           <div className="tag">
@@ -19,17 +20,23 @@ export default function Product({ product }) {
         <img src={card} alt="cardImage" />
         <span className="builder">Builder 1</span>
       </div>
+
+      {/* Product name, Description, Highlight Info */}
       <div className="information">
+        {/* Title and Description */}
         <div className="title">
           <b>{product.title}- </b>
           {product.description}
         </div>
+        {/* If discount Then we show discount label */}
         {discount ? <div className="discount">{discount}</div> : null}
+
+        {/* Reviews and highlights */}
         <div className="reviews">
           <p className="highlight">
             <b>Main Highlights</b>
           </p>
-
+          {/* If comments are more then 1 then we show them in list */}
           <p className="comment">
             {product.mainHighlights.length > 1 ? (
               <div className="commentsList">
@@ -49,10 +56,14 @@ export default function Product({ product }) {
           Show More <i className="fa-solid fa-angle-down"></i>
         </p>
       </div>
+
+      {/* Rating and View Button */}
       <div className="ratings">
         <div className="rating">
           <span> {product.rating.count}</span>
           <p>{product.rating.avgRating}</p>
+          {/* Start to show Rating */}
+          {/* For these stars we can also pass the no of stars via props and run a loop to show  add that many stars*/}
           <i className="fa-solid fa-star"></i>
           <i className="fa-solid fa-star"></i>
           <i className="fa-solid fa-star"></i>

@@ -77,6 +77,7 @@ export default function ProductTab() {
 
   return (
     <>
+      {/* Passing our props to  the product component*/}
       <Product product={product1} />
       <Product product={product2} />
       <Product product={product3} />
