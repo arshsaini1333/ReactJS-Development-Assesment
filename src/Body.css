@@ -3,3 +3,10 @@
   margin-left: 250px;
   width: 60%;
 }
+
+@media only screen and (max-width: 1200px) {
+  .Body {
+    width: 150%;
+    margin: 0px 20px;
+  }
+}

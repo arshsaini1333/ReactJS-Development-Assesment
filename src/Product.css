@@ -1,6 +1,6 @@
 .Product {
   margin: 50px 0px;
-  height: 300px;
+  /* height: 300px; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -20,13 +20,9 @@
   padding-top: 20px;
 }
 
-.image img {
-  margin-top: 10px;
-  margin-left: 4%;
-}
-
 .image .builder {
-  margin-left: 30%;
+  /* margin-left: 30%; */
+  /* margin-left: 20%; */
   color: #626e79;
 }
 
@@ -97,7 +93,7 @@
 }
 
 .rating i {
-  margin-top: 8px;
+  margin-top: 0.5rem;
   color: #ffb80f;
 }
 
@@ -116,8 +112,8 @@
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
   text-align: center;
-  position: relative;
-  left: -13px;
+  /* position: relative;
+  left: -13px; */
 }
 
 .discount {
@@ -131,7 +127,7 @@
 
 .commentsList {
   background-color: #fff4ed;
-  padding: 10px;
+  padding: 1%;
   border-radius: 10px;
 }
 
@@ -142,4 +138,28 @@
 .highlightRating {
   color: #1b88f4;
   background-color: #ffffff;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Product {
+    display: block;
+    width: inherit;
+  }
+  .Product > div {
+    width: 100%;
+    padding-left: 30px;
+  }
+  .image img {
+    margin-left: 40%;
+  }
+  .image .builder {
+    position: relative;
+    left: -105px;
+  }
+  .rating {
+    margin: 10px 40%;
+  }
+  .ratings button {
+    margin: 10px 38%;
+  }
 }
